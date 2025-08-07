@@ -15,7 +15,7 @@ export default function DetectorIA() {
       formData.append('text', text);
     }
     try {
-      const response = await fetch('https://detector-inteligente-api.onrender.com/analyze', {
+      const response = await fetch('https://ia-detector-hub-1-git-484c9a-gabriel-paulinos-projects-ba8d9312.vercel.app/', {
         method: 'POST',
         body: formData
       });
